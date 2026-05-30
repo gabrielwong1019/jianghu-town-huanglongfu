@@ -66,3 +66,7 @@ Evidence/
 
 # Large raw audio files
 *.wav
+
+# Large video files
+*.mp4
+*.webm
