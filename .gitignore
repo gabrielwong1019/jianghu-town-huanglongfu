@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+
+# Ren'Py saves and cache
+/game/saves
+/game/cache
+game/saves/
+game/cache/
+cache/
+saves/
+
+# Ren'Py compiled script files
+/game/**/*.rpyc
+/game/**/*.rpymc
+*.rpyc
+*.rpymc
+
+# Ren'Py generated backup files
+/game/**/*.bak
+/game/**/*.new
+/game/**/*.old
+*.bak
+*.new
+*.old
+
+# Error, log, and output files
+/errors.txt
+/files.txt
+/image_cache.txt
+/log.txt
+/progressive_download.txt
+/traceback.txt
+errors.txt
+files.txt
+image_cache.txt
+log.txt
+progressive_download.txt
+traceback.txt
+*.log
+
+# Build/export files
+*.zip
+*.tar.bz2
+*.dmg
+*.app/
+*.exe
+*.apk
+*.ipa
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor folders
+.vscode/
+.idea/
+
+# Private / evidence files
+00_suno_subscription_proof/
+99_platform_rules/
+evidence/
+Evidence/
+证据链/
+平台截图/
+订阅证明/
+
+# Large raw audio files
+*.wav
