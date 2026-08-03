@@ -70,3 +70,8 @@ Evidence/
 # Large video files
 *.mp4
 *.webm
+
+# Allow verified Ren'Py Web deployment output.
+!deploy/
+!deploy/web/
+!deploy/web/**
