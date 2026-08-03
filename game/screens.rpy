@@ -292,6 +292,9 @@ screen navigation():
 
             textbutton _("开始游戏") action Start()
 
+            textbutton _("简体中文") action Language(None)
+            textbutton _("English") action Language("english")
+
         else:
 
             textbutton _("历史") action ShowMenu("history")
@@ -356,13 +359,13 @@ screen main_menu():
         yalign 0.88
         spacing 8
 
-        text "江湖小镇之凰龙府":
+        text _("江湖小镇之凰龙府"):
             size 42
             color "#e6d3a1"
             outlines [(2, "#000000aa", 1, 1)]
             xalign 1.0
 
-        text "第一章《雷云开炉》 · 先行试玩版 V0.1":
+        text _("第一章《雷云开炉》 · 先行试玩版 V0.1"):
             size 22
             color "#c8b37e"
             outlines [(2, "#00000099", 1, 1)]
@@ -768,6 +771,12 @@ screen preferences():
                     textbutton _("未读文本") action Preference("skip", "toggle")
                     textbutton _("选项后继续") action Preference("after choices", "toggle")
                     textbutton _("忽略转场") action InvertSelected(Preference("transitions", "toggle"))
+
+                vbox:
+                    style_prefix "radio"
+                    label _("语言")
+                    textbutton _("简体中文") action Language(None)
+                    textbutton _("English") action Language("english")
 
                 ## 可在此处添加 radio_pref 或 check_pref 类型的额外 vbox，以添加
                 ## 额外的创建者定义的偏好设置。

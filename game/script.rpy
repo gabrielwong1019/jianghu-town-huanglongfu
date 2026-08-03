@@ -338,137 +338,137 @@ image main_menu_movie_mp4 = Movie(
 # =========================
 
 # 主角
-define wangfang = Character("王放", callback=wangfang_show_callback)
-define zuowan = Character("左婉", callback=zuowan_show_callback)
+define wangfang = Character(_("王放"), callback=wangfang_show_callback)
+define zuowan = Character(_("左婉"), callback=zuowan_show_callback)
 
 # 游街子
-define housanxian = Character("侯三闲", callback=make_npc_callback("housanxian", npc_left))
-define luoxiaoliu = Character("罗小六")
-define maerhua = Character("马二花")
-define liangazhui = Character("梁阿坠")
-define duqiniang = Character("杜七娘")
-define qiansixi = Character("钱四喜")
+define housanxian = Character(_("侯三闲"), callback=make_npc_callback("housanxian", npc_left))
+define luoxiaoliu = Character(_("罗小六"))
+define maerhua = Character(_("马二花"))
+define liangazhui = Character(_("梁阿坠"))
+define duqiniang = Character(_("杜七娘"))
+define qiansixi = Character(_("钱四喜"))
 
 # 飞鸿驿站
-define guoluping = Character("郭路平", callback=make_npc_callback("guoluping", npc_left_big2))
-define fangheming = Character("方鹤鸣", callback=make_npc_callback("fangheming", npc_left_big3))
-define lutiankuo = Character("鲁天阔", callback=make_npc_callback("lutiankuo", npc_left_huge2))
-define zhouerdan = Character("周二蛋", callback=make_npc_callback("zhouerdan", npc_left_big3))
-define fangdaniang = Character("方大娘", callback=make_npc_callback("fangdaniang", npc_left_huge1))
-define weisaner = Character("魏三儿", callback=make_npc_callback("weisaner", npc_left_big3))
-define luoazao = Character("罗阿枣", callback=make_npc_callback("luoazao", npc_left_big2))
+define guoluping = Character(_("郭路平"), callback=make_npc_callback("guoluping", npc_left_big2))
+define fangheming = Character(_("方鹤鸣"), callback=make_npc_callback("fangheming", npc_left_big3))
+define lutiankuo = Character(_("鲁天阔"), callback=make_npc_callback("lutiankuo", npc_left_huge2))
+define zhouerdan = Character(_("周二蛋"), callback=make_npc_callback("zhouerdan", npc_left_big3))
+define fangdaniang = Character(_("方大娘"), callback=make_npc_callback("fangdaniang", npc_left_huge1))
+define weisaner = Character(_("魏三儿"), callback=make_npc_callback("weisaner", npc_left_big3))
+define luoazao = Character(_("罗阿枣"), callback=make_npc_callback("luoazao", npc_left_big2))
 
 # 茯苓医馆
-define xuchunxiang = Character("徐春香", callback=make_npc_callback("xuchunxiang",npc_left_huge))
-define chengmingzhu = Character("程明珠", callback=make_npc_callback("chengmingzhu", npc_left_big))
-define chensumei = Character("陈素梅", callback=make_npc_callback("chensumei", npc_left_huge4))
-define zhouqingliu = Character("周青柳", callback=make_npc_callback("zhouqingliu", npc_left_big5))
-define limo = Character("李默", callback=make_npc_callback("limo", npc_left_big))
-define shenyun = Character("沈云", callback=make_npc_callback("shenyun", npc_left_big4))
-define shenxingchen = Character("沈星辰", callback=make_npc_callback("shenxingchen", npc_left_big))
+define xuchunxiang = Character(_("徐春香"), callback=make_npc_callback("xuchunxiang",npc_left_huge))
+define chengmingzhu = Character(_("程明珠"), callback=make_npc_callback("chengmingzhu", npc_left_big))
+define chensumei = Character(_("陈素梅"), callback=make_npc_callback("chensumei", npc_left_huge4))
+define zhouqingliu = Character(_("周青柳"), callback=make_npc_callback("zhouqingliu", npc_left_big5))
+define limo = Character(_("李默"), callback=make_npc_callback("limo", npc_left_big))
+define shenyun = Character(_("沈云"), callback=make_npc_callback("shenyun", npc_left_big4))
+define shenxingchen = Character(_("沈星辰"), callback=make_npc_callback("shenxingchen", npc_left_big))
 
 # 银花庵
-define mingjingfashi = Character("明镜法师")
-define jingting = Character("静亭")
-define jingsong = Character("静松")
-define axiang = Character("阿香")
+define mingjingfashi = Character(_("明镜法师"))
+define jingting = Character(_("静亭"))
+define jingsong = Character(_("静松"))
+define axiang = Character(_("阿香"))
 
 # 长风楼 / 酒楼
-define xinwanhe = Character("辛万和")
-define shuoshuren = Character("说书人")
-define jianghuke = Character("江湖客")
-define jianghukejia = Character("江湖客甲")
-define jianghukeyi = Character("江湖客乙")
-define jianghukebing = Character("江湖客丙")
+define xinwanhe = Character(_("辛万和"))
+define shuoshuren = Character(_("说书人"))
+define jianghuke = Character(_("江湖客"))
+define jianghukejia = Character(_("江湖客甲"))
+define jianghukeyi = Character(_("江湖客乙"))
+define jianghukebing = Character(_("江湖客丙"))
 
 # 西街菜市 / 商铺
-define chendasao = Character("陈大嫂")
-define wusanniang = Character("吴三娘")
-define heawang = Character("何阿旺")
-define houxiaoman = Character("侯小满")
-define caotieshan = Character("曹铁山")
-define liushanping = Character("刘山平")
-define liuxiaoxiao = Character("刘小小")
-define fanyoucheng = Character("范有成")
-define xiaomazi = Character("小麻子")
-define machangshun = Character("马长顺")
-define songlaoliu = Character("宋老六")
+define chendasao = Character(_("陈大嫂"))
+define wusanniang = Character(_("吴三娘"))
+define heawang = Character(_("何阿旺"))
+define houxiaoman = Character(_("侯小满"))
+define caotieshan = Character(_("曹铁山"))
+define liushanping = Character(_("刘山平"))
+define liuxiaoxiao = Character(_("刘小小"))
+define fanyoucheng = Character(_("范有成"))
+define xiaomazi = Character(_("小麻子"))
+define machangshun = Character(_("马长顺"))
+define songlaoliu = Character(_("宋老六"))
 
 # 风云坪 / 官府 / 王家
-define baochangshan = Character("包长山")
-define xiaoqing = Character("小庆")
-define wangdejiu = Character("王德久")
-define wangqingwan = Character("王清莞")
-define xunbusi_chayi = Character("巡捕司差役")
+define baochangshan = Character(_("包长山"))
+define xiaoqing = Character(_("小庆"))
+define wangdejiu = Character(_("王德久"))
+define wangqingwan = Character(_("王清莞"))
+define xunbusi_chayi = Character(_("巡捕司差役"))
 
 # 绯红院
-define zhangmama = Character("张妈妈")
-define xiuzhu = Character("秀珠")
-define gaochangchun = Character("郜长春")
+define zhangmama = Character(_("张妈妈"))
+define xiuzhu = Character(_("秀珠"))
+define gaochangchun = Character(_("郜长春"))
 
 # 风雷观
-define yunqingdaozhang = Character("云清道长")
-define xuanhengzhenren = Character("玄蘅真人")
-define xuanyuezhenren = Character("玄岳真人")
-define xuanshuangzhenren = Character("玄霜真人")
-define qingxiao = Character("清骁")
-define fengleiguan_dizi = Character("风雷观外门弟子")
+define yunqingdaozhang = Character(_("云清道长"))
+define xuanhengzhenren = Character(_("玄蘅真人"))
+define xuanyuezhenren = Character(_("玄岳真人"))
+define xuanshuangzhenren = Character(_("玄霜真人"))
+define qingxiao = Character(_("清骁"))
+define fengleiguan_dizi = Character(_("风雷观外门弟子"))
 
 # 临时通用人物
 
-define keren = Character("客人")
+define keren = Character(_("客人"))
 
-define keshang = Character("客商")
+define keshang = Character(_("客商"))
 
-define bingren = Character("病人")
+define bingren = Character(_("病人"))
 
-define zhenmin = Character("镇民")
+define zhenmin = Character(_("镇民"))
 
-define nanzi = Character("男子")
+define nanzi = Character(_("男子"))
 
-define nvzi = Character("女子")
+define nvzi = Character(_("女子"))
 
-define xunbu = Character("巡捕")
+define xunbu = Character(_("巡捕"))
 
-define unknown = Character("？？？")
+define unknown = Character(_("？？？"))
 
 # 临时编号人物
 
-define zhenmin_jia = Character("镇民甲")
+define zhenmin_jia = Character(_("镇民甲"))
 
-define zhenmin_yi = Character("镇民乙")
+define zhenmin_yi = Character(_("镇民乙"))
 
-define nanzi_jia = Character("男子甲")
+define nanzi_jia = Character(_("男子甲"))
 
-define nanzi_yi = Character("男子乙")
+define nanzi_yi = Character(_("男子乙"))
 
-define nvzi_jia = Character("女子甲")
+define nvzi_jia = Character(_("女子甲"))
 
-define nvzi_yi = Character("女子乙")
+define nvzi_yi = Character(_("女子乙"))
 
-define jianghuke_jia = Character("江湖客甲")
+define jianghuke_jia = Character(_("江湖客甲"))
 
-define jianghuke_yi = Character("江湖客乙")
+define jianghuke_yi = Character(_("江湖客乙"))
 
-define jianghuke_bing = Character("江湖客丙")
+define jianghuke_bing = Character(_("江湖客丙"))
 
 # 临时特征人物
 
-define huafu_nvzi = Character("华服女子")
+define huafu_nvzi = Character(_("华服女子"))
 
-define huitou_jianghuke = Character("灰衣江湖客")
+define huitou_jianghuke = Character(_("灰衣江湖客"))
 
-define baofa_laoren = Character("白发老人")
+define baofa_laoren = Character(_("白发老人"))
 
-define baofu_shaonian = Character("抱袱少年")
+define baofu_shaonian = Character(_("抱袱少年"))
 
 # 特定剧情临时人物
 
-define gaoge_nanzi = Character("高个男子")
+define gaoge_nanzi = Character(_("高个男子"))
 
-define aige_nanzi = Character("矮个男子")
+define aige_nanzi = Character(_("矮个男子"))
 
-define shangzhe = Character("伤者")            
+define shangzhe = Character(_("伤者"))
 
 # =========================
 # 变量默认值
@@ -652,7 +652,7 @@ label s001_prologue:
 
     "雷云峰为凰龙府第一险峰，峰顶常年云雷缭绕，山势高峻，外山险道极多。"
 
-    "风雷观依雷云锋山势而建，分玄雷院、清阳院、栖霞院三院。"
+    "风雷观依雷云峰山势而建，分玄雷院、清阳院、栖霞院三院。"
 
     "风雷观以雷法、符箓、护道术与丹道闻名北境。"
 
